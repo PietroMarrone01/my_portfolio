@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="../public/photo.jpeg"
+              src="https://images.app.goo.gl/iiWK8XUa5Gj6h1xz6"
               alt="Pietro portrait"
               width="192"
               height="192"

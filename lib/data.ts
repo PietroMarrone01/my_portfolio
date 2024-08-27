@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Politecnico di Torino",
     location: "Torino, Italy",
     description:
-      "Master's Degree in Computer Engineering – Computer Networks and Cloud Computing. Thesis in: Exploring Device-to-Device (D2D) Communication in Cellular Technology. 5G and Beyond",
+      "Master's Degree in Computer Engineering – Computer Networks and Cloud Computing. Thesis in: Exploring Device-to-Device (D2D) Communication in Cellular Technology, 5G and Beyond",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2024",
   },
@@ -64,7 +64,7 @@ export const projectsData = [
     title: "Food Recovery (Too Good To Go)",
     description:
       "Design and implementation of a web application aimed at recovering excess food from shops and restaurants.",
-    tags: ["React", "Next.js", "SQLite", "Passport.js", "HTML", "CSS", "JavaScript"],
+    tags: ["React", "Next.js", "SQLite", "Passport.js", "HTML", "CSS"],
     imageUrl: foodrecovery,
   },
   {
