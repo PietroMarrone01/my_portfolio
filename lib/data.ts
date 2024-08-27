@@ -34,28 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Politecnico di Bari",
+    location: "Bari, Italy",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Bachelor's degree in Computer and Automation Engineering with a score of 110/110 with honors",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019-2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Politecnico di Torino",
+    location: "Torino, Italy",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Master's Degree in Computer Engineering – Computer Networks and Cloud Computing. Thesis in: Exploring Device-to-Device (D2D) Communication in Cellular Technology. 5G and Beyond",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "DTU (Danmarks Tekniske Universitet)",
+    location: "Copenaghen, Denmark",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "International program E+/EU PROGRAM COUNTRIES 2023/2024 - Courses and final project (courses and thesis preparation)",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - 2024",
   },
 ] as const;
 
@@ -63,14 +63,14 @@ export const projectsData = [
   {
     title: "Food Recovery (Too Good To Go)",
     description:
-      "Design and implementation of a web application aimed at recovering excess food from shops and restaurants. Definition of the functional and technical requirements for the application. Development of an intuitive and responsive user interface.",
+      "Design and implementation of a web application aimed at recovering excess food from shops and restaurants.",
     tags: ["React", "Next.js", "SQLite", "Passport.js", "HTML", "CSS", "JavaScript"],
     imageUrl: foodrecovery,
   },
   {
     title: "Authentication Service - SDN",
     description:
-      "AUTHENTICATION SERVICE project, designed to guarantee the security and efficient management of traffic in a virtual network created with Mininet.",
+      "Project designed to guarantee the security and efficient management of traffic in a virtual network created with Mininet.",
     tags: ["ONOS CONTROLLER", "MININET", "FLASK SERVER"],
     imageUrl: sdn,
   },
