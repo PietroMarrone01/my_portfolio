@@ -22,7 +22,7 @@ export default function About() {
         I am Pietro Marrone, and I was born in Bari on 26, January 2001. I am currently pursuing my Master's in{" "}
         <span className="font-medium">Computer Networks and Cloud Computing</span>, 
         with a keen interest in the {" "}
-        <span className="font-medium">IoT, cybersecurity and cloud world.</span>.{" "}
+        <span className="font-medium">IoT, cybersecurity and cloud world</span>.{" "}
         <span className="italic">I am driven by a persistent curiosity, meticulous attention to detail and a firm commitment to learning</span> 
         , always seeking to expand my skill set and knowledge base. 
         When faced with challenges, I approach them with determination and dedication, giving my utmost to find solutions and achieve our shared objectives. 
