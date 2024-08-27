@@ -19,30 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am Pietro Marrone, and I was born in Bari on 26, January 2001. I am currently pursuing my Master's in{" "}
+        <span className="font-medium">Computer Networks and Cloud Computing</span>, 
+        with a keen interest in the {" "}
+        <span className="font-medium">IoT, cybersecurity and cloud world.</span>.{" "}
+        <span className="italic">I am driven by a persistent curiosity, meticulous attention to detail and a firm commitment to learning</span> 
+        , always seeking to expand my skill set and knowledge base. 
+        When faced with challenges, I approach them with determination and dedication, giving my utmost to find solutions and achieve our shared objectives. 
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not studying</span>, I enjoy doing any kind of sport, 
+        watching tv series and reading books. I also like to learn new things, travel, meet new people and know new cultures.
       </p>
     </motion.section>
   );
