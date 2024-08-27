@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://www.google.com/imgres?imgurl=https://media.licdn.com/dms/image/C4E03AQENR8OrrUHEZQ/profile-displayphoto-shrink_200_200/0/1656000181776?e%3D2147483647%26v%3Dbeta%26t%3DdcZPDtS-3NDUATreYf2rspPYSUDbpkPUdcyBNjTmp3U&tbnid=6sDqfLsOtaoPGM&vet=1&imgrefurl=https://www.linkedin.com/pub/dir/Pietro/Marrone&docid=gz1asnszNmSV2M&w=183&h=183&source=sh/x/im/m1/1&kgs=dd42a6b02c16315a&shem=abme,trie" 
+              src="/photo.jpeg" 
               alt="Pietro portrait"
               width="192"
               height="192"
