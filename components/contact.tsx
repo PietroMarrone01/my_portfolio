@@ -36,7 +36,16 @@ export default function Contact() {
         <a className="underline" href="mailto:pietromarrone8@gmail.com">
           pietromarrone8@gmail.com
         </a> {" "}
-        or through Linkedin.
+        or through{" "}
+        <a
+          className="underline"
+          href="https://www.linkedin.com/in/pietro-marrone-43643723b/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Linkedin
+        </a>
+        .
       </p>
     </motion.section>
   );
