@@ -67,7 +67,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQLite", "Passport.js", "HTML", "CSS"],
     imageUrl: foodrecovery,
     githubUrl: "https://github.com/PietroMarrone01/Food-Recovery",  // URL specifico per GitHub
-    documentationUrl: "https://www.google.it/",  
+    documentationUrl: "https://www.google.it",  
   },
   {
     title: "Authentication Service - SDN",
@@ -76,7 +76,7 @@ export const projectsData = [
     tags: ["ONOS CONTROLLER", "MININET", "FLASK SERVER"],
     imageUrl: sdn,
     githubUrl: "https://github.com/PietroMarrone01/AUTHENTICATION-SERVICE-SDN",  // URL specifico per GitHub
-    documentationUrl: "https://www.google.it/",  
+    documentationUrl: "https://www.google.it",  
   },
 ] as const;
 

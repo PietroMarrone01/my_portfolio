@@ -7,7 +7,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 type ProjectProps = {
   title: string;
   description: string;
-  tags: string[];
+  tags: readonly string[];  // Aggiornato a readonly string[]
   imageUrl: string;
   githubUrl: string;
   documentationUrl: string;
