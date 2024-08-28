@@ -66,6 +66,8 @@ export const projectsData = [
       "Design and implementation of a web application aimed at recovering excess food from shops and restaurants.",
     tags: ["React", "Next.js", "SQLite", "Passport.js", "HTML", "CSS"],
     imageUrl: foodrecovery,
+    githubUrl: "https://github.com/PietroMarrone01/Food-Recovery",  // URL specifico per GitHub
+    documentationUrl: "https://www.google.it/",  
   },
   {
     title: "Authentication Service - SDN",
@@ -73,6 +75,8 @@ export const projectsData = [
       "Project designed to guarantee the security and efficient management of traffic in a virtual network created with Mininet.",
     tags: ["ONOS CONTROLLER", "MININET", "FLASK SERVER"],
     imageUrl: sdn,
+    githubUrl: "https://github.com/PietroMarrone01/AUTHENTICATION-SERVICE-SDN",  // URL specifico per GitHub
+    documentationUrl: "https://www.google.it/",  
   },
 ] as const;
 

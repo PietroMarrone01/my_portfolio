@@ -1,17 +1,25 @@
 "use client";
 
 import { useRef } from "react";
-import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = {
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrl: string;
+  githubUrl: string;
+  documentationUrl: string;
+};
 
 export default function Project({
   title,
   description,
   tags,
   imageUrl,
+  githubUrl,
+  documentationUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,6 +54,24 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <div className="flex gap-4 mt-4">
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
+            >
+              Github
+            </a>
+            <a
+              href={documentationUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition"
+            >
+              Documentation
+            </a>
+          </div>
         </div>
 
         <Image
@@ -53,17 +79,17 @@ export default function Project({
           alt="Project I worked on"
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
+            transition 
+            group-hover:scale-[1.04]
+            group-hover:-translate-x-3
+            group-hover:translate-y-3
+            group-hover:-rotate-2
 
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
+            group-even:group-hover:translate-x-3
+            group-even:group-hover:translate-y-3
+            group-even:group-hover:rotate-2
 
-        group-even:right-[initial] group-even:-left-40"
+            group-even:right-[initial] group-even:-left-40"
         />
       </section>
     </motion.div>
