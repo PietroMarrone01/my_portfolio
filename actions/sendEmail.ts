@@ -21,7 +21,7 @@ export const sendEmail = async (formData: FormData) => {
     return {
       error: "Invalid message",
     };
-  }
+  } 
 
   let data;
   try {

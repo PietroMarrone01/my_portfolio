@@ -57,7 +57,7 @@ export default function ThemeContextProvider({
       {children}
     </ThemeContext.Provider>
   );
-}
+} 
 
 export function useTheme() {
   const context = useContext(ThemeContext);

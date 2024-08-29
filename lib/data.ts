@@ -88,7 +88,7 @@ export const projectsData = [
     githubUrl: "https://github.com/PietroMarrone01/AUTHENTICATION-SERVICE-SDN",  // URL specifico per GitHub
     documentationUrl: "https://drive.google.com/file/d/1ORRxMbRfCzZOtCUlXmuRx8Ak0C4awuXc/view?usp=sharing",  
   },
-] as const;
+] as const; 
 
 export const skillsData = [
   "GitHub",

@@ -55,19 +55,21 @@ export default function Project({
             ))}
           </ul>
           <div className="flex gap-4 mt-4">
-            <a
-              href={githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white border border-gray-400 px-4 py-2 rounded-full bg-transparent hover:bg-gray-200 hover:text-black transition"
-            >
-              Github
-            </a>
+            {githubUrl && (
+              <a
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 border border-gray-400 px-4 py-2 rounded-full bg-transparent hover:bg-gray-200 transition"
+              >
+                Github
+              </a>
+            )}
             <a
               href={documentationUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white border border-gray-400 px-4 py-2 rounded-full bg-gray-200 hover:bg-gray-300 hover:text-black transition"
+              className="text-gray-800 border border-gray-400 px-4 py-2 rounded-full bg-gray-200 hover:bg-gray-300 transition"
             >
               Documentation
             </a>
