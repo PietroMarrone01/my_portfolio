@@ -68,7 +68,7 @@ export const projectsData = [
     tags: ["DECT NR+", "IoT", "5G", "D2D Communication", "Nordic Semiconductor", "nRF9161 DK"],
     imageUrl: dectnr,
     githubUrl: "",  // URL specifico per GitHub
-    documentationUrl: "https://drive.google.com/file/d/1rNGAPD0XaFuHnnd2DEj4MWty_5RrF_YM/view?usp=sharing",  
+    documentationUrl: "https://drive.google.com/drive/folders/1PR_0PMLuKuNMs6Cqbsc9mHK3NYmz_5UC?usp=sharing",  
   },
   {
     title: "Rescuing Surplus Food (Too Good To Go)",
