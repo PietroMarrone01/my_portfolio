@@ -74,7 +74,7 @@ export const projectsData = [
     title: "Rescuing Surplus Food (Too Good To Go)",
     description:
       "Design and implementation of a web application aimed at recovering excess food from shops and restaurants.",
-    tags: ["React", "Next.js", "SQLite", "Passport.js", "HTML", "CSS"],
+    tags: ["React", "Node.js", "SQLite", "Passport.js", "HTML", "CSS"],
     imageUrl: foodrecovery,
     githubUrl: "https://github.com/PietroMarrone01/Food-Recovery",  // URL specifico per GitHub
     documentationUrl: "https://drive.google.com/file/d/1L_ZM8Sw6gFoAC3JW9WAMefKk7iHVtyZt/view?usp=sharing",  
