@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import foodrecovery from "@/public/foodrecovery.png";
 import sdn from "@/public/sdn.png";
 import dectnr from "@/public/NRpluslogo.png";
+import tama from "@/public/tamagotchi.png";
 
 export const links = [
   {
@@ -87,6 +88,15 @@ export const projectsData = [
     imageUrl: sdn,
     githubUrl: "https://github.com/PietroMarrone01/AUTHENTICATION-SERVICE-SDN",  // URL specifico per GitHub
     documentationUrl: "https://drive.google.com/file/d/1ORRxMbRfCzZOtCUlXmuRx8Ak0C4awuXc/view?usp=sharing",  
+  },
+  {
+    title: "Tamagotchi on Microcontroller",
+    description:
+      "Developed a Tamagotchi simulation using the LPC1768 Landtiger Cortex-M3 microcontroller in C.",
+    tags: ["C", "Microcontrollers", "ARM Cortex"],
+    imageUrl: tama,
+    githubUrl: "",  // URL specifico per GitHub
+    documentationUrl: "https://drive.google.com/drive/folders/1KfMa8A6UpjZ7a8xZ35cpjqUFnP0oM9oM?usp=sharing",  
   },
 ] as const; 
 
