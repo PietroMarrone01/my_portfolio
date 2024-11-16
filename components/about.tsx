@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am Pietro Marrone, and I was born in Bari on 26, January 2001. I am currently pursuing my Master's in{" "}
+        I am Pietro Marrone, and I was born in Bari, Italy. I recently pursued my Master's in{" "}
         <span className="font-medium">Computer Networks and Cloud Computing</span>, 
         with a keen interest in the {" "}
         <span className="font-medium">IoT, cybersecurity and cloud world</span>.{" "}
