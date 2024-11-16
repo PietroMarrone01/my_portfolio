@@ -124,7 +124,7 @@ export const skillsData = [
   "LANs",
   "Linux Virtualization",
   "Microsoft 365",
-  "Network Infrastructure and DC"
+  "Network Infrastructure and DC",
   "Node.js",
   "Python",
   "PL/SQL",
