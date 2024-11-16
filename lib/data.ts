@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { LuBriefcase } from "react-icons/lu";
 import foodrecovery from "@/public/foodrecovery.png";
 import sdn from "@/public/sdn.png";
 import dectnr from "@/public/NRpluslogo.png";
@@ -59,6 +60,14 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2023 - 2024",
   },
+  {
+    title: "Go Reply",
+    location: "Torino, Italy",
+    description:
+      "Cloud and DevOps Engineer in the Infrastructure Department. GO Reply is a Reply Group company specialising in innovative Cloud services based on Google Cloud technology",
+    icon: React.createElement(LuBriefcase),
+    date: "2024 - present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -102,7 +111,6 @@ export const projectsData = [
 
 export const skillsData = [
   "AWS",
-  "Bash",
   "Cloud Computing",
   "Cybersecurity",
   "C",
@@ -110,27 +118,15 @@ export const skillsData = [
   "Docker",
   "Excel",
   "GitHub",
-  "IoT",
-  "IPv4 - v6",
   "ISO 27001",
   "JavaScript",
   "Kubernetes",
   "LANs",
   "Linux Virtualization",
-  "Linux Shell",
-  "Machine Learning",
-  "Matlab",
   "Microsoft 365",
-  "Mininet",
+  "Network Infrastructure and DC"
   "Node.js",
-  "ONOS Controller",
-  "Openstack",
-  "Passport.js",
+  "Python",
   "PL/SQL",
   "React",
-  "Routing Protocols",
-  "Rust",
-  "Python",
-  "VLANS",
-  "VPN",
 ] as const;
