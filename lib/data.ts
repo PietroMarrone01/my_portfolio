@@ -61,6 +61,14 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
+    title: "Albo degli Ingegneri",
+    location: "Bari, Italy",
+    description:
+      "State Exam for Qualification to the Profession of Information Engineer - Section A. Politecnico di Bari e Ordine degli Ingegneri della provincia di Bari",
+    icon: React.createElement(LuBriefcase),
+    date: "2024",
+  },
+  {
     title: "Go Reply",
     location: "Torino, Italy",
     description:
@@ -111,22 +119,17 @@ export const projectsData = [
 
 export const skillsData = [
   "AWS",
+  "GCP",
+  "Terraform",
   "Cloud Computing",
   "Cybersecurity",
-  "C",
-  "Data Base",
+  "Kubernetes",
   "Docker",
-  "Excel",
   "GitHub",
   "ISO 27001",
   "JavaScript",
-  "Kubernetes",
-  "LANs",
   "Linux Virtualization",
   "Microsoft 365",
   "Network Infrastructure and DC",
-  "Node.js",
-  "Python",
-  "PL/SQL",
   "React",
 ] as const;
