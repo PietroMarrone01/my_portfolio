@@ -39,7 +39,7 @@ export default function Contact() {
         or through{" "}
         <a
           className="underline"
-          href="https://www.linkedin.com/in/pietro-marrone-43643723b/"
+          href="https://www.linkedin.com/in/pietro-marrone/"
           target="_blank"
           rel="noopener noreferrer"
         >

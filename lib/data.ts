@@ -74,7 +74,15 @@ export const experiencesData = [
     description:
       "Cloud and DevOps Engineer in the Infrastructure Department. GO Reply is a Reply Group company specialising in innovative Cloud services based on Google Cloud technology",
     icon: React.createElement(LuBriefcase),
-    date: "2024 - present",
+    date: "2024 - 2025",
+  },
+  {
+    title: "PwC Italy",
+    location: "Torino, Italy",
+    description:
+      "Cloud and Network Engineer in the Cybersecurity Department.",
+    icon: React.createElement(LuBriefcase),
+    date: "2025 - present",
   },
 ] as const;
 
@@ -118,18 +126,19 @@ export const projectsData = [
 ] as const; 
 
 export const skillsData = [
-  "AWS",
+  // "AWS",
   "GCP",
+  "Iac",
   "Terraform",
+  "Git",
   "Cloud Computing",
   "Cybersecurity",
   "Kubernetes",
   "Docker",
-  "GitHub",
-  "ISO 27001",
-  "JavaScript",
-  "Linux Virtualization",
+  // "ISO 27001",
+  // "JavaScript",
+  // "Linux Virtualization",
   "Microsoft 365",
   "Network Infrastructure and DC",
-  "React",
+  // "React",
 ] as const;
