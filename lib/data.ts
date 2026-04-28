@@ -142,3 +142,4 @@ export const skillsData = [
   "Network Infrastructure and DC",
   // "React",
 ] as const;
+
